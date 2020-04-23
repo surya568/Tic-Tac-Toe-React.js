@@ -1,38 +1,32 @@
-.App {
+.container {
   text-align: center;
+  background-image: url("http://1.bp.blogspot.com/-0z5ffPnm05g/ULS7lu_LV9I/AAAAAAAAN2M/d1ojf-9m_Gw/s1600/3D+Purple+Wallpapers+4.jpg");
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.box {
+  width: 140px;
+  height: 140px;
+  border: 1px solid black;
+  display: inline-block;
+  font-weight: larger;
+  line-height: 150px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.board {
+  background-image:url("https://www.technocrazed.com/wp-content/uploads/2015/12/Wood-Wallpaper-Background-3.jpg");
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 426px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.title {
+  font-size: 70px;
+  color: wheat;
 }
-
-.App-link {
-  color: #61dafb;
+.lab {
+  line-height: 30px;
+  margin-left: 580px;
+  height: 35px;
+  background-color: greenyellow;
+  width: 200px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.reset {
+  background-color: gold;
 }
