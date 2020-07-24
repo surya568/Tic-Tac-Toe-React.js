@@ -1,5 +1,5 @@
 {
-  "homepage":"http://surya568.github.io/recipe-react_app",
+  "homepage": "https://surya568.github.io/recipe/",
   "name": "react-app",
   "version": "0.1.0",
   "private": true,
@@ -13,8 +13,8 @@
     "react-scripts": "^2.1.8"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
